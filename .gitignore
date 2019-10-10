@@ -54,7 +54,7 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
+# db.sqlite3
 
 # Flask stuff:
 instance/
@@ -102,3 +102,18 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# #PyCharm/VIM/VSCode
+
+.idea
+.ropeproject/
+/nbproject/private/
+.vscode/
+
+#Mkvirtual
+bin
+etc
+include
+lib
+lib64
+share
